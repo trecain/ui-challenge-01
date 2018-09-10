@@ -1,0 +1,31 @@
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  height: 75px;
+}
+
+nav {
+  height: 150px;
+}
+
+.primary div {
+  height: 125px;
+}
+
+.secondary {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.secondary div {
+  height: 250px;
+  width: 50%;
+}
+
+footer {
+  height: 80px;
+}
