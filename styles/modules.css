@@ -1,0 +1,74 @@
+.a {
+  background-color: aqua;
+}
+
+.b {
+  background-color: tomato;
+}
+
+.c {
+  background-color: olivedrab;
+}
+
+.d {
+  background-color: orchid;
+}
+
+.e {
+  background-color: peru;
+}
+
+.f {
+  background-color: salmon;
+}
+
+.g {
+  background-color: blueviolet;
+}
+
+.h {
+  background-color: darkcyan;
+}
+
+.i {
+  background-color: khaki;
+}
+
+
+@media screen and (min-width: 768px) {
+  .a {
+    background-color: red;
+  }
+  
+  .b {
+    background-color: royalblue;
+  }
+  
+  .c {
+    background-color: orange;
+  }
+  
+  .d {
+    background-color: yellow;
+  }
+  
+  .e {
+    background-color: lightcoral;
+  }
+  
+  .f {
+    background-color: violet;
+  }
+  
+  .g {
+    background-color: firebrick;
+  }
+  
+  .h {
+    background-color: darkred;
+  }
+  
+  .i {
+    background-color: indigo;
+  }
+}
