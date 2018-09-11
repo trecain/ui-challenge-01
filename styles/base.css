@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  background-color: lightgrey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0;
+}
