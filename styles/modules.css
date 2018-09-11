@@ -1,74 +1,92 @@
 .a {
   background-color: aqua;
+  width: 480px;
 }
 
 .b {
   background-color: tomato;
+  width: 480px;
 }
 
 .c {
   background-color: olivedrab;
+  width: 480px;
 }
 
 .d {
   background-color: orchid;
+  width: 480px;
 }
 
 .e {
   background-color: peru;
+  width: 240px;
 }
 
 .f {
   background-color: salmon;
+  width: 240px;
 }
 
 .g {
   background-color: blueviolet;
+  width: 240px;
 }
 
 .h {
   background-color: darkcyan;
+  width: 240px;
 }
 
 .i {
   background-color: khaki;
+  width: 480px;
 }
 
 
 @media screen and (min-width: 768px) {
   .a {
     background-color: red;
+    width: 960px;
   }
   
   .b {
     background-color: royalblue;
+    width: 600px;
   }
   
   .c {
     background-color: orange;
+    width: 380px;
   }
   
   .d {
     background-color: yellow;
+    width: 380px;
   }
   
   .e {
     background-color: lightcoral;
+    width: 190px;
   }
   
   .f {
     background-color: violet;
+    width: 190px;
   }
   
   .g {
     background-color: firebrick;
+    width: 190px;
   }
   
   .h {
     background-color: darkred;
+    width: 190px;
   }
   
   .i {
     background-color: indigo;
+    width: 760px;
   }
 }

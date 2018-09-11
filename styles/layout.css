@@ -19,11 +19,11 @@ nav {
 .secondary {
   display: flex;
   flex-wrap: wrap;
+  width: 480px;
 }
 
 .secondary div {
   height: 250px;
-  width: 50%;
 }
 
 footer {
@@ -31,6 +31,9 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+  /* body {
+    width: 960px;
+  } */
   header {
     max-width: 960px;
     margin: 0 auto;
@@ -56,8 +59,12 @@ footer {
     height: 200px;
     width: 50%;
   }
+  .secondary {
+    width: 100%;
+    flex-wrap: nowrap;
+  }
   .secondary div {
-    width: 25%;
+    width: 50%;
   }
   footer {
     height: 150px;
